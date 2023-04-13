@@ -5,7 +5,7 @@ import numpy as np
 chat_id = 707776914 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array, y: np.array) -> bool:
-    alpha = 0.04
+    alpha = 0.09
     xm=x.mean()
     ym=y.mean()
     xd=x.var()
